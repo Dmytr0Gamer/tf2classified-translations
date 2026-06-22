@@ -33,15 +33,15 @@
 "Chat_Voice"			"(ГОЛОС) "
 
 // Chat Printouts
-"TF_Joined_Game"				"%s1 приєднався до гри"
-"TF_Left_Game"					"%s1 покинув гру (%s2)"
-"TF_Joined_Team"				"%s1 доєднався до команди%s2"
-"TF_Name_Change"				"* %s1 перейменувався на %s2"
+"TF_Joined_Game"				"%s1 долучається до гри"
+"TF_Left_Game"					"%s1 залишає гру (%s2)"
+"TF_Joined_Team"				"%s1 долучається до команди%s2"
+"TF_Name_Change"				"* %s1 змінює ім'я на %s2"
 
 "TF_Team_Balanced"				"%s1 перенесено до команди %s2"
 "TF_Autobalance_TeamChangeDone"	"Вас перенесено до команди %s1"
 
-"TF_VIP_Assigned"				"%s1 став VIP!"
+"TF_VIP_Assigned"				"%s1 тепер VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Голосові команди"
@@ -52,7 +52,7 @@
 
 // Sentry consent popup
 "TF_SentryReport_Title"				"Надсилати звіти про помилки?"
-"TF_SentryReport_Message"			"Ви бажаєте дозволити надсилати анонімні повідомлення про помилки команді Team Fortress 2 Classified?"
+"TF_SentryReport_Message"			"Ви бажаєте дозволити надсилати анонімні звіти про помилки команді Team Fortress 2 Classified?"
 
 // VIP voting
 "Vote_ChangeCivilian"				"Змінити VIP"
@@ -65,25 +65,22 @@
 
 // ----------------------------------------------------------------
 // Teams
-// Я узгодив назви команд відповідно до стилю перекладу TF2, тож команди GRN та YLW тепер ЗЕЛЕНІ та ЖОВТІ відповідно. -Nemejczykun
 // ----------------------------------------------------------------
 
-"TF_GreenTeam" 					"&5 ЗЕЛЕНІ"
-"TF_YellowTeam" 				"&6 ЖОВТІ"
+"TF_GreenTeam" 						"&5 ЗЕЛЕНІ"
+"TF_YellowTeam" 					"&6 ЖОВТІ"
 
-"TF_GreenTeam_Name"				"ЗЕЛЕНІ"
-"TF_YellowTeam_Name"			"ЖОВТІ"
+"TF_GreenTeam_Name"					"ЗЕЛЕНІ"
+"TF_YellowTeam_Name"				"ЖОВТІ"
 
-"TF_Other_Name"					"РЕШТА"
+"TF_Other_Name"						"РЕШТА"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"Глобальне маскування: Усі вороги бачитимуть вас як товариша."
+"Hud_Menu_Disguise_GlobalTeam"		"Глобальне маскування: Усі вороги бачитимуть вас як товариша."
 
 // Autobalance
-"TF_teamswitch_red"			"Тепер ви ЧЕРВОНІ!"
-"TF_teamswitch_blue"		"Тепер ви СИНІ!"
-"TF_teamswitch_green"		"Тепер ви ЗЕЛЕНІ!"
-"TF_teamswitch_yellow"		"Тепер ви ЖОВТІ!"
+"TF_teamswitch_green"				"Тепер ви з ЗЕЛЕНИМИ!"
+"TF_teamswitch_yellow"				"Тепер ви з ЖОВТИМИ!"
 
 // ----------------------------------------------------------------
 // Classes
@@ -467,7 +464,7 @@
 "TF_Weapon_SMG_Desc"	"Як тобі таке? Ми обоє небезпечніші впритул."
 // Syringe Gun
 "TF_Weapon_SyringeGun"		"Шприцомет"
-"TF_Weapon_SyringeGun_Desc"	"А з тебе виходить хороший тримач голок!"
+"TF_Weapon_SyringeGun_Desc"	"А з тебе виходить хороша голківниця!"
 // Rocket Launcher
 "TF_Weapon_RocketLauncher"		"Ракетомет"
 "TF_Weapon_RocketLauncher_Desc"	"Ідеальна зброя для ідеального солдата!"
@@ -483,13 +480,13 @@
 // Pistol
 "TF_Weapon_Pistol"					"Пістолет"
 "TF_Weapon_Pistol_Desc_Engineer"	"Танцюй, хлопче."
-"TF_Weapon_Pistol_Desc_Scout"		"Всі задалеко, поки не заблизько."
+"TF_Weapon_Pistol_Desc_Scout"		"Усі задалеко, поки не заблизько."
 // Revolver
 "TF_Weapon_Revolver"		"Револьвер"
 "TF_Weapon_Revolver_Desc"	"Коли більше не виходить залишатися непоміченим."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"			"Будівельний КПК"
-"TF_Weapon_ConstructionPDA_Desc"	"Все, що потрібно інженеру, як я, є в цьому маленькому пристрої."
+"TF_Weapon_ConstructionPDA_Desc"	"Усе, що потрібно такому інженеру, як я, знаходиться в цьому маленькому пристрої."
 "TF_Weapon_PDATeleporter"			"КПК: Телепорт"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"	"КПК для руйнування"
@@ -559,7 +556,7 @@
 "TF_Weapon_Coilgun_Desc"	"Стільки шкварчання, а стейку нема."
 // Mine Layer
 "TF_Weapon_MineLayer"		"Міномет"
-"TF_Weapon_MineLayer_Desc"	"Дивися, куди йдеш..."
+"TF_Weapon_MineLayer_Desc"	"Гей, дивися під ноги! Хех..."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"Шокова терапія"
 "TF_Weapon_ShockTherapy_Desc"	"РОЗРЯД!"
@@ -605,7 +602,7 @@
 "TF_Weapon_DerbyCane_Desc"	"Мотивує, хлопче? Має мотивувати."
 // Cyclops
 "TF_Weapon_Cyclops"			"Циклоп"
-"TF_Weapon_Cyclops_Desc"	"У країні сліпих ти — король."
+"TF_Weapon_Cyclops_Desc"	"У країні сліпих, ти — король."
 
 // ----------------------------------------------------------------
 // Miscellaneous weapon types
@@ -662,143 +659,126 @@
 
 // ----------------------------------------------------------------
 // Weapon attributes
-// Я перегрупував рядки атрибутів, щоб їх було легше узгодити. Вибачте, якщо це в майбутньому завдасть проблем. -Nemejczykun
 // ----------------------------------------------------------------
 
-// Критична та мінікритична шкода
-"Attrib_MultDamageCrit"						"Крити завдають на %s1% більше шкоди"
-"Attrib_CritVsBurning"						"Завдає критичної шкоди підпаленим ворогам"
-"Attrib_MinicritVsWet"						"Завдає мінікритичної шкоди вологим ворогам"
-"Attrib_CritVsBleed"						"Завдає критичної шкоди ворогам з кровотечею"
-"Attrib_HeadshotIsMinicrit"					"Завдає мінікритичної шкоди при влучанні в голову"
-"Attrib_ObjectivesGiveCrits"				"Завдає критичної шкоди ворогам, що захоплюють, обороняють, чи несуть прапор"
-"Attrib_ObjectivesGiveMiniCrits"			"Завдає мінікритичної шкоди ворогам, що захоплюють, обороняють, чи несуть прапор"
-"Attrib_CritAirborneEnemies"				"Завдає критичної шкоди ворогам у повітрі"
-"Attrib_MiniCritAirborneEnemies"			"Завдає мінікритичної шкоди ворогам у повітрі"
-"Attrib_ModCritAirborneDirectHitOnly"		"Завдає критичної шкоди ворогам у повітрі, при прямому влучанні"
-"Attrib_MinicritWhileDisguised"				"У маскуванні: ви завдаєте мінікритичної шкоди"
-"Attrib_TakeProjectileCritsAirborne"		"У повітрі: отримана шкода від снарядів стає критичною"
-"Attrib_TakeMinicritsProjectileAirborne"	"У повітрі: отримана шкода від снарядів стає мінікритичною"
-"Attrib_TakeMinicritsWhileDisguised"		"У маскуванні: отримана шкода стає мінікритичною"
-"Attrib_MeleeTakenBecomesCritWearer"		"У ближньому бою: отримана шкода стає критичною"
-"Attrib_GainStoredCritsOnHit"				"При влучанні: накопичує %s1 крит(ів)"
-"Attrib_GainStoredCritsOnKill"				"При вбивстві: накопичує %s1 крит(ів)"
-"Attrib_BurningTargetsChargeCrit"			"У руці: накопичує крити від догоряння ворогів"
-"Attrib_LoseStoredCritsOnMiss"				"При промаху: утрачає %s1 накопичених крит(ів)"
-"Attrib_AlwaysCritsFullStoredCrits"			"Використовує накопичені крити лише при повному заряді"
-"Attrib_CannotUseStoredCrits"				"Не використовує накопичені крити"
-
-//Прицілювання
-"Attrib_FlinchDecrease"			"Отримана шкода трясе приціл на %s1% менше"
-"Attrib_FlinchIncrease"			"Отримана шкода трясе приціл на %s1% більше"
-"Attrib_FlinchDecreaseWearer"	"Отримана шкода трясе приціл носія на %s1% менше"
-"Attrib_FlinchIncreaseWearer"	"Отримана шкода трясе приціл носія на %s1% більше"
-"Attrib_FlinchDecreaseAiming"	"У прицілі: отримана шкода трясе приціл на %s1% менше"
-"Attrib_FlinchIncreaseAiming"	"У прицілі: отримана шкода трясе приціл на %s1% більше"
-
-// Додаткові атаки
-"Attrib_AltFire_FizzleMines"			"Дод. атака: знищує міни"
-"Attrib_AltFire_DetonateStickybombs"	"Дод. атака: підриває всі бомби-липучки"
-"Attrib_AltFire_Airblast"				"Дод. атака: випускає пневмострумінь\nПневмострумінь відштовхує ворогів, відбиває снаряди та гасить товаришів, що горять"
-"Attrib_AltFire_Cloak"					"Дод. атака: невидимість"
-"Attrib_AltFire_MinicritBoost"			"Дод. атака: підсилити товариша міні-критами"
-"Attrib_AltFire_HasteBoost"				"Дод. атака: пришвидшити товариша"
-"Attrib_AltFire_UberBubble"				"Дод. атака: жбурнути пристрій, що надає невразливість товаришам навколо"
-
-// Лікування
-"Attrib_DropTeamHealthPackOnKill"		"При вбивстві: випадає командна аптечка"
-"Attrib_HealOnKillCrit"					"При вбивстві критом: +%s1 од. здоров’я"
-"Attrib_LifestealCrit"					"При влучанні критом: поглинає здоров’я вашої жертви"
-"Attrib_HealOnSmack"					"При влучанні з повним зарядом: повністю зцілює товариша"
-"Attrib_FlatHealOnAfterburn_Active"		"У руці: відновлює %s1 од. здоров’я від догоряючих ворогів"
-"Attrib_DamageDelaysRegeneration"		"Отримання шкоди призупиняє відновлення здоров’я на %s1 с"
-"Attrib_NoCritHeals"					"Без крит-лікування: Швидкість лікування не збільшується коли пацієнт не в бою"
-"Attrib_HealingMedigunReceivedBonus"		"Лікування від медгармати: +%s1%"
-"Attrib_HealingMedigunReceivedPenalty"		"Лікування від медгармати: %s1%"
-"Attrib_HealingDispenserReceivedBonus"		"Лікування від роздавачів: +%s1%"
-"Attrib_HealingDispenserReceivedPenalty"	"Лікування від роздавачів: %s1%"
-"Attrib_DispensersCanOverhealOnWearer"		"Носій надліковується від роздавачів"
-"Attrib_HealthKitsCanOverhealOnWearer"		"Носій надліковується від аптечок"
-"Attrib_EverythingCanOverhealOnWearer"		"Носій надліковується від усіх джерел"
-"Attrib_HealingMedigunReceivedActiveBonus"		"У руці: лікування від медгармати: +%s1%"
-"Attrib_HealingMedigunReceivedActivePenalty"	"У руці: лікування від медгармати: %s1%"
-"Attrib_HealingReceivedActiveBonus"				"У руці: лікування від товаришів: +%s1%"
-"Attrib_HealingReceivedActivePenalty"			"У руці: лікування від товаришів: %s1%"
-"Attrib_HealthFromPacks_Active_Increased"		"У руці: лікування від аптечок: +%s1%"
-"Attrib_HealthFromPacks_Active_Decreased"		"У руці: лікування від аптечок: %s1%"
-"Attrib_HealingDispenserReceivedActiveBonus"	"У руці: лікування від роздавачів: +%s1%"
-"Attrib_HealingDispenserReceivedActivePenalty"	"У руці: лікування від роздавачів: %s1%"
-"Attrib_DispensersCanOverhealOnActive"			"У руці: носій надліковується від роздавачів"
-"Attrib_HealthKitsCanOverhealOnActive"			"У руці: носій надліковується від аптечок"
-"Attrib_EverythingCanOverhealOnActive"			"У руці: носій надліковується від усіх джерел"
+"Attrib_CritVsBurning"				"Завдає критичної шкоди підпаленим ворогам"
+"Attrib_RocketJumpDmgReduction"		"Отримана шкода від ракетних стрибків: %s1%"
+"Attrib_Scattergun_HasKnockback"	"Відкидує ціль і стрільця"
 
 
-// Перезарядження, набої
-"Attrib_InstantReloadOnDirectHit"		"При прямому влучанні: миттєво перезаряджає %s1 набоїв"
-"Attrib_AddAmmoOnDirectHit"				"При прямому влучанні: отримує %s1 набоїв"
-"Attrib_InstantReloadOnHit"				"При влучанні: миттєво перезаряджає %s1 набоїв"
-"Attrib_InstantReloadOnKill"			"При вбивстві: миттєво перезаряджає %s1 набоїв"
-"Attrib_AddAmmoOnKill"					"При вбивстві: отримує %s1 набоїв"
-"Attrib_InstantReloadOnDirectHitKill"	"При вбивстві прямим влучанням: миттєво перезаряджає %s1 набоїв"
-"Attrib_AddAmmoOnDirectHitKill"			"При вбивстві прямим влучанням: отримує %s1 набоїв"
-"Attrib_ReloadNotActive"				"Не в руці: миттєво перезаряджається"
-"Attrib_PassiveAmmoHolstered"			"Не в руці: з часом відновлює набої"
-
-
-// Будівлі, метал
-"Attrib_BuildingsMaxLevel"					"Макс. рівень споруд: %s1"
-"Attrib_UpgradeCost"						"Споруди потребують %s1 металу для поліпшення"
-"Attrib_Dispenser_Build_Rate"				"Роздавадач зводиться на %s1% швидше"
-"Attrib_JumpPad_Build_Rate"					"Стрибкова панель зводиться на %s1% швидше"
-"Attrib_DispenserBuildCost"					"%s1% ціна побудови роздавача"
-"Attrib_SentrygunBuildCost"					"%s1% ціна побудови турелі"
-"Attrib_JumpPadBuildCost"					"%s1% ціна побудови стрибкової панелі"
-"Attrib_JumpPadNoUpgrade"					"Стрибкову панель не можна поліпшувати"
-"Attrib_NoPrimaryAmmoFromDispensersAlways"	"Роздавачі не дають набої"
-"Attrib_MetalOnSentryKill"					"При вбивстві туреллю: +%s1 металу"
-"Attrib_SentryKnockback_Increased"			"Турель відкидає ворогів на %s1% більше"
-"Attrib_SentryKnockback_Decreased"			"Турель відкидає ворогів на %s1% менше"
-"Attrib_SentryTurnRate_Increased"			"Турель наводиться на %s1% швидше"
-"Attrib_SentryTurnRate_Decreased"			"Турель наводиться на %s1% повільніше"
-"Attrib_UpgradeRepairBuildings"				"При ударі: поліпшує, ремонтує та прискорює зведення дружніх споруд"
-
-
-
-// Інше
-"Attrib_RocketJumpDmgReduction"						"Отримана шкода від ракетних стрибків: %s1%"
-"Attrib_Scattergun_HasKnockback"					"Відкидує ціль і стрільця"
 "Attrib_RocketGravity"								"Ракети летять дугою"
 "Attrib_CreatesEarthquakeFallDamage"				"У руці: шкода від падіння створює землетрус"
+"Attrib_TakeProjectileCritsAirborne"				"У повітрі: отримана шкода від снарядів стає критичною"
 "Attrib_Gravity_Active_Increased"					"У руці: сила гравітації: +%s1%"
-"Attrib_TeleporterJumpPad"							"Заміняє телепорт на стрибкову панель"
+"Attrib_TeleporterJumpPad"							"Замінює телепорт на стрибкову панель"
 "Attrib_Mod_Horizontal_Spread"						"Має широкий горизонтальний розліт куль"
 "Attrib_ApplySelfKnockback"							"Відкидає при пострілі"
 "Attrib_WeaponEnemyKnockback_Bonus"					"Відкидання ворога: +%s1%"
-"Attrib_RememberTargetsRemainingAfterburn"			"Відстажує залишок догоряння мертвих ворогів"
+"Attrib_LifestealCrit"								"При влучанні критом: поглинає здоров’я вашої жертви"
+"Attrib_FlatHealOnAfterburn_Active"					"У руці: відновлює %s1 од. здоров’я від догоряючих ворогів"
+"Attrib_RememberTargetsRemainingAfterburn"			"Відстежує залишок догоряння мертвих ворогів"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"При смерті: вороги, яких ви підпалили, гаснуть"
 "Attrib_Explosive_Bullets"							"Стріляє розривними снарядами"
+"Attrib_CannotUseStoredCrits"						"Не використовує накопичені крити"
+"Attrib_GainStoredCritsOnHit"						"При влучанні: накопичує %s1 крит(ів)"
+"Attrib_AlwaysCritsFullStoredCrits"					"Використовує накопичені крити лише при повному заряді"
+"Attrib_LoseStoredCritsOnMiss"						"При промаху: утрачає %s1 накопичених крит(ів)"
+"Attrib_MeleeTakenBecomesCritWearer"				"У ближньому бою: отримана шкода стає критичною"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"У невидимості: на %s1% швидша хода"
 "Attrib_LoseCloakOnDamage"							"У невидимості: -%s1% заряду при отриманні шкоди"
-"Attrib_TranqOnHit"                 			    "При влучанні: жертва не розрізняє кольори, повільно ходить та стріляє впродовж %s1 с"
+"Attrib_TranqOnHit"									"При влучанні: жертва не розрізняє кольори, повільно ходить та стріляє впродовж %s1 с"
 "Attrib_FishwhackerSweep"							"Відкидає ворогів поблизу"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Бонус шкоди впливає на відкидання"
 "Attrib_ApplySelfKnockbackSwing"					"Відкидання від замаху"
 "Attrib_AirblastSelfKnockback"						"Пневмострумінь відкидає користувача"
 "Attrib_ProximityMine"								"Міни вибухають, коли вороги поблизу"
+"Attrib_AltFire_FizzleMines"						"Дод. атака: знищує міни"
 "Attrib_NoStickyChargeTime"							"Без заряду липучкомета"
 "Attrib_BlastSplashDamage_Decreased"				"Шкода від вибухової хвилі: %s1%"
+"Attrib_BurningTargetsChargeCrit"					"У руці: накопичує крити від догоряння ворогів"
 "Attrib_LimitedRange"								"Має обмежену дальність ураження"
+"Attrib_GainStoredCritsOnKill"						"При вбивстві: накопичує %s1 крит(ів)"
+"Attrib_HealOnKillCrit"								"При вбивстві критом: +%s1 од. здоров’я"
+"Attrib_InstantReloadOnDirectHit"					"При прямому влучанні: миттєво перезаряджає %s1 набоїв"
+"Attrib_InstantReloadOnHit"							"При влучанні: миттєво перезаряджає %s1 набоїв"
+"Attrib_InstantReloadOnDirectHitKill"				"При вбивстві прямим влучанням: миттєво перезаряджає %s1 набоїв"
+"Attrib_InstantReloadOnKill"						"При вбивстві: миттєво перезаряджає %s1 набоїв"
 "Attrib_ViewPunchOnHit"								"При влучанні: трясе екран жертви"
+"Attrib_FlinchDecrease"								"Отримана шкода трясе приціл на %s1% менше"
+"Attrib_FlinchIncrease"								"Отримана шкода трясе приціл на %s1% більше"
+"Attrib_FlinchDecreaseWearer"						"Отримана шкода трясе приціл носія на %s1% менше"
+"Attrib_FlinchIncreaseWearer"						"Отримана шкода трясе приціл носія на %s1% більше"
+"Attrib_FlinchDecreaseAiming"						"У прицілі: отримана шкода трясе приціл на %s1% менше"
+"Attrib_FlinchIncreaseAiming"						"У прицілі: отримана шкода трясе приціл на %s1% більше"
+"Attrib_CritVsBleed"								"Завдає критичної шкоди ворогам з кровотечею"
+"Attrib_MinicritWhileDisguised"						"У маскуванні: ви завдаєте мінікритичної шкоди"
+"Attrib_TakeMinicritsWhileDisguised"				"У маскуванні: отримана шкода стає мінікритичною"
+"Attrib_ObjectivesGiveMiniCrits"					"Завдає мінікритичної шкоди ворогам, що захоплюють, обороняють, чи несуть прапор"
+"Attrib_HeadshotIsMinicrit"							"Завдає мінікритичної шкоди при влучанні в голову"
+"Attrib_BuildingsMaxLevel"							"Макс. рівень споруд: %s1"
+"Attrib_UpgradeCost"								"Споруди потребують %s1 металу для поліпшення"
+"Attrib_Dispenser_Build_Rate"						"Роздавадач зводиться на %s1% швидше"
+"Attrib_JumpPad_Build_Rate"							"Стрибкова панель зводиться на %s1% швидше"
+"Attrib_DispenserBuildCost"							"%s1% ціна побудови роздавача"
+"Attrib_SentrygunBuildCost"							"%s1% ціна побудови турелі"
+"Attrib_JumpPadBuildCost"							"%s1% ціна побудови стрибкової панелі"
+"Attrib_NoPrimaryAmmoFromDispensersAlways"			"Роздавачі не дають набої"
+"Attrib_MetalOnSentryKill"							"При вбивстві туреллю: +%s1 металу"
+"Attrib_SentryKnockback_Increased"					"Турель відкидає ворогів на %s1% більше"
+"Attrib_SentryKnockback_Decreased"					"Турель відкидає ворогів на %s1% менше"
+"Attrib_SentryTurnRate_Increased"					"Турель наводиться на %s1% швидше"
+"Attrib_SentryTurnRate_Decreased"					"Турель наводиться на %s1% повільніше"
+"Attrib_HealingMedigunReceivedBonus"				"Лікування від медгармати: +%s1%"
+"Attrib_HealingMedigunReceivedPenalty"				"Лікування від медгармати: %s1%"
+"Attrib_HealingMedigunReceivedActiveBonus"			"У руці: лікування від медгармати: +%s1%"
+"Attrib_HealingMedigunReceivedActivePenalty"		"У руці: лікування від медгармати: %s1%"
+"Attrib_HealingDispenserReceivedBonus"				"Лікування від роздавачів: +%s1%"
+"Attrib_HealingDispenserReceivedPenalty"			"Лікування від роздавачів: %s1%"
+"Attrib_HealingDispenserReceivedActiveBonus"		"У руці: лікування від роздавачів: +%s1%"
+"Attrib_HealingDispenserReceivedActivePenalty"		"У руці: лікування від роздавачів: %s1%"
+"Attrib_DispenserCanOverhealOnWearer"				"Носій надліковується від роздавачів"
+"Attrib_DispenserCanOverhealOnActive"				"У руці: носій надліковується від роздавачів"
+"Attrib_EverythingCanOverhealOnWearer"				"Носій надліковується від усіх джерел"
+"Attrib_EverythingCanOverhealOnActive"				"У руці: носій надліковується від усіх джерел"
+"Attrib_NoCritHeals"								"Без крит-лікування: Швидкість лікування не збільшується коли пацієнт не в бою"
+"Attrib_HealthKitsCanOverhealOnWearer"				"Носій надліковується від аптечок"
+"Attrib_HealthKitsCanOverhealOnActive"				"У руці: носій надліковується від аптечок"
+"Attrib_HealingReceivedActiveBonus"					"У руці: лікування від товаришів: +%s1%"
+"Attrib_HealingReceivedActivePenalty"				"У руці: лікування від товаришів: %s1%"
+"Attrib_HealthFromPacks_Active_Increased"			"У руці: лікування від аптечок: +%s1%"
+"Attrib_HealthFromPacks_Active_Decreased"			"У руці: лікування від аптечок: %s1%"
+"Attrib_DamageDelaysRegeneration"					"Отримання шкоди призупиняє відновлення здоров’я на %s1 с"
 "Attrib_DestroyGrenadesDetonateOwn"					"Вибух руйнує ворожі гранати та детонує власні"
 "Attrib_HoldFirePreventDetonation"					"Утримання атаки не підриває гранати"
+"Attrib_MiniCritAirborneEnemies"					"Завдає мінікритичної шкоди ворогам у повітрі"
+"Attrib_CritAirborneEnemies"						"Завдає критичної шкоди ворогам у повітрі"
+"Attrib_ModCritAirborneDirectHitOnly"				"Завдає критичної шкоди ворогам у повітрі, при прямому влучанні"
+"Attrib_ObjectivesGiveCrits"						"Завдає критичної шкоди ворогам, що захоплюють, обороняють, чи несуть прапор"
+"Attrib_AddAmmoOnDirectHit"							"При прямому влучанні: отримує %s1 набоїв"
+"Attrib_AddAmmoOnDirectHitKill"						"При вбивстві прямим влучанням: отримує %s1 набоїв"
+"Attrib_AddAmmoOnKill"								"При вбивстві: отримує %s1 набоїв"
+"Attrib_MinicritVsWet"								"Завдає мінікритичної шкоди вологим ворогам"
+"Attrib_TakeMinicritsProjectileAirborne"			"У повітрі: отримана шкода від снарядів стає мінікритичною"
+"Attrib_HealOnSmack"								"При влучанні з повним зарядом: повністю зцілює товариша"
+"Attrib_MultDamageCrit"								"Крити завдають на %s1% більше шкоди"
+"Attrib_DropTeamHealthPackOnKill"					"При вбивстві: випадає командна аптечка"
+"Attrib_PassiveAmmoHolstered"						"Не в руці: з часом відновлює набої"
 "Attrib_Backstab"									"Атакуйте ворога зі спини, щоб завдати смертельного удару"
+"Attrib_UpgradeRepairBuildings"						"При ударі: поліпшує, ремонтує та прискорює зведення дружніх споруд"
+"Attrib_AltFire_DetonateStickybombs"				"Дод. атака: підриває всі бомби-липучки"
+"Attrib_AltFire_Airblast"							"Дод. атака: випускає пневмострумінь\nПневмострумінь відштовхує ворогів, відбиває снаряди та гасить товаришів, що горять"
+"Attrib_AltFire_Cloak"								"Дод. атака: невидимість"
 "Attrib_SapBuildings"								"Виводить з ладу та пошкоджує ворожі споруди\nНе збиває маскування при використанні"
+"Attrib_ReloadNotActive"							"Не в руці: миттєво перезаряджається"
 "Attrib_Sandvich"									"З’їжте, щоб відновити до 120 од. здоров’я\nДод. атака: Поділитися бутербродом з товаришом (діє як середня аптечка)"
+"Attrib_AltFire_MinicritBoost"						"Дод. атака: підсилити товариша міні-критами"
 "Attrib_SplitsIntoBomblets"							"При вибуху розпадається на 4 маленькі бомби"
 "Attrib_DisabledByWrench"							"Можна знешкодити гайковим ключем"
 "Attrib_Coilgun"									"Повністю заряджені постріли рикошетять від стін, а при надмірному заряді вибухають у руці"
 "Attrib_DamageAffectedByCharge"						"Постріл заряджається для більшої шкоди"
-
+"Attrib_JumpPadNoUpgrade"							"Стрибкову панель не можна поліпшувати"
+"Attrib_AltFire_HasteBoost"							"Дод. атака: пришвидшити товариша"
+"Attrib_AltFire_UberBubble"							"Дод. атака: жбурнути пристрій, що надає невразливість товаришам навколо"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -815,7 +795,13 @@
 "Hydro_dom_cap_dam"			"точку D, дамбу"
 
 // vip_mineside
-"vip_mineside_description"	"Мета:\nЧЕРВОНІ переможуть, якщо не дадуть VIP дістатися зони евакуації. СИНІ переможуть, якщо проведуть його до зони евакуації.\n\nІнші примітки:\nЗона евакуації не відкриється, доки ви не доставите пристрій до диспетчерської біля воріт зони евакуації.\n\nКоли СИНІ доставлять пристрій, ворота відкриються на 60 секунд."
+"vip_mineside_description"	"Мета:
+ЧЕРВОНІ переможуть, якщо не дадуть VIP дістатися зони евакуації. СИНІ переможуть, якщо проведуть його до зони евакуації.
+
+Інші примітки:
+Зона евакуації не відкриється, доки ви не доставите пристрій до диспетчерської біля воріт зони евакуації.
+
+Коли СИНІ доставлять пристрій, ворота відкриються на 60 секунд."
 
 "Mineside_setup_goal_red"	"Убийте VIP, щоб він не дістався до зони евакуації. Не дайте йому захопити пристрій."
 "Mineside_setup_goal_blu"	"Проведіть VIP до зони евакуації. Доставте пристрій до диспетчерської, щоб відкрити ворота."
@@ -836,12 +822,22 @@
 "Harbor_cap_3"			"склад"
 
 // 4dom_krepost
-"dom_krepost_description"	"Мета:\nЩоб перемогти, кожна команда повинна захопити та утримувати активну контрольну точку, щоб заробити очки.\n\nАктивна контрольна точка змінюється кожні 60 секунд.\n\nІнші примітки:\nВорожа команда не отримує очки за контрольні точки, які ви намагаєтеся захопити.\n\nАктивна контрольна точка блокується, коли буде обрано нову контрольну точку.\n\nТільки чесний рукопашний бій!"
+"dom_krepost_description"	"Мета:
+Щоб перемогти, кожна команда повинна захопити та утримувати активну контрольну точку, щоб заробити очки.
 
-"Krepost_cap_red"	"Замок ЧЕРВОНИК"
-"Krepost_cap_blu"	"Замок СИНІХ"
-"Krepost_cap_grn"	"Замок ЗЕЛЕНИХ"
-"Krepost_cap_ylw"	"Замок ЖОВТИХ"
+Активна контрольна точка змінюється кожні 60 секунд.
+
+Інші примітки:
+Ворожа команда не отримує очки за контрольні точки, які ви намагаєтеся захопити.
+
+Активна контрольна точка блокується, коли буде обрано нову контрольну точку.
+
+Тільки чесний рукопашний бій!"
+
+"Krepost_cap_red"	"замок ЧЕРВОНИК"
+"Krepost_cap_blu"	"замок СИНІХ"
+"Krepost_cap_grn"	"замок ЗЕЛЕНИХ"
+"Krepost_cap_ylw"	"замок ЖОВТИХ"
 
 "Krepost_attack_red"	"Браму ЧЕРВОНИК відчинено!"
 "Krepost_attack_blu"	"Браму СИНІХ відчинено!"
@@ -934,12 +930,22 @@
 // ----------------------------------------------------------------
 
 // Domination
-"default_dom_description"	"Мета:\nЩоб перемогти, кожна команда повинна захопити та утримувати контрольні точки, щоб заробити очки. Чим більше контрольних точок ви маєте, тим швидше ви отримуєте очки.\n\nІнші примітки:\nВорожа команда не отримує очок за контрольні точки, які ви намагаєтеся  захопити.\n\nЯкщо ваша команда відстає, захопіть усі контрольні точки, щоб отримати бонусні очки."
+"default_dom_description"	"Мета:
+Щоб перемогти, кожна команда повинна захопити та утримувати контрольні точки, щоб заробити очки. Чим більше контрольних точок ви маєте, тим швидше ви отримуєте очки.
+
+Інші примітки:
+Ворожа команда не отримує очок за контрольні точки, які ви намагаєтеся  захопити.
+
+Якщо ваша команда відстає, захопіть усі контрольні точки, щоб отримати бонусні очки."
 
 "domination_setup_goal"	"Захоплюйте контрольні точки, щоб з часом отримувати очки. Захопивши більше однієї точки, ви збільшите свої шанси на успіх!"
 
 // VIP
-"default_vip_description"	"Мета:\nСИНІ переможуть, якщо проведуть VIP до зони евакуації до завершення часу. ЧЕРВОНІ переможуть, якщо не дадуть йому дістатися зони евакуації.\n\nІнші примітки:\nСИНІ можуть утримувати поступ захоплення контрольної точки, якщо VIP немає поруч."
+"default_vip_description"	"Мета:
+СИНІ переможуть, якщо проведуть VIP до зони евакуації до завершення часу. ЧЕРВОНІ переможуть, якщо не дадуть йому дістатися зони евакуації.
+
+Інші примітки:
+СИНІ можуть утримувати поступ захоплення контрольної точки, якщо VIP немає поруч."
 
 "vip_setup_goal_offense"	"Проведіть VIP до зони евакуації. Захоплюйте контрольні точки щоб отримувати додаткові бонуси."
 "vip_setup_goal_defense"	"Убийте ворожого VIP, щоб він не потрапив до зони евакуації. За потреби захищайте контрольні точки."
@@ -963,7 +969,15 @@
 "TF_VIP_EnemyDeviceReturned"	"Пристрій було повернуто! Не дайте ворогам забрати його!"
 
 // VIP Race
-"default_vipr_description"	"Мета:\nПроведіть свого VIP до контрольних точок та зони евакуації щоб виграти. Убийте ворожого VIP, щоб скинути захоплені ним контрольні точки.\n\nІнші примітки:\nЯкщо ваш VIP помре, ви втратите всі захоплені ним контрольні точки.\n\nБудь-яка команда може втримувати поступ захоплення контрольної точки, якщо їхнього VIP немає поруч.\n\nПід час раптової сметрі, ворожого VIP можна вбити, щоб виграти раунд!"
+"default_vipr_description"	"Мета:
+Проведіть свого VIP до контрольних точок та зони евакуації щоб виграти. Убийте ворожого VIP, щоб скинути захоплені ним контрольні точки.
+
+Інші примітки:
+Якщо ваш VIP помре, ви втратите всі захоплені ним контрольні точки.
+
+Будь-яка команда може втримувати поступ захоплення контрольної точки, якщо їхнього VIP немає поруч.
+
+Під час раптової сметрі, ворожого VIP можна вбити, щоб виграти раунд!"
 
 "vipr_setup_goal"		"Проведіть свого VIP до зони евакуації. Не дайте ворожій команді зробити те саме."
 "vipr_setup_goal_4team"	"Проведіть свого VIP до зони евакуації. Не дайте ворожим командам зробити те саме."
@@ -980,16 +994,21 @@
 "vipr_cap_mid_reset"		"Центральну контрольну точку скинуто!"
 "vipr_death_cap_mid_reset"	"Ви померли! Центральну контрольну точку скинуто!"
 
-"vipr_red_civ_death"	"VIP ЧЕРВОНИХ убито!"
-"vipr_blu_civ_death"	"VIP СИНІХ убито!"
-"vipr_ylw_civ_death"	"VIP ЖОВТИХ убито!"
-"vipr_grn_civ_death"	"VIP ЗЕЛЕНИХ убито!"
+"vipr_red_civ_death"	"VIP ЧЕРВОНИХ ліквідовано!"
+"vipr_blu_civ_death"	"VIP СИНІХ ліквідовано!"
+"vipr_ylw_civ_death"	"VIP ЖОВТИХ ліквідовано!"
+"vipr_grn_civ_death"	"VIP ЗЕЛЕНИХ ліквідовано!"
 
-"vipr_escape_zone"	"Зону евакуації"
-
+"vipr_escape_zone"	"Зона евакуації"
 
 // Territorial Domination
-"default_td_description"			"Мета:\nДля перемоги команда повинна захопити всі контрольні точки.\n\nІнші примітки:\nВи з’явитеся на ваших контрольних точках.\n\nВаші контрольні точки будуть випадково обрані на початку кожного раунду."
+"default_td_description"			"Мета:
+Для перемоги команда повинна захопити всі контрольні точки.
+
+Інші примітки:
+Ви з’явитеся на ваших контрольних точках.
+
+Ваші контрольні точки будуть випадково обрані на початку кожного раунду."
 
 // Payload Race (Four-Team)
 "4plr_goal"	"Рухайте вагонетку до кінця колії, щоб перемогти!"
@@ -1010,8 +1029,6 @@
 "TF_Arena_Welcome"				"Режим арени"
 "TF_Arena_Team_SizeIncreased"	"Розмір команди %s1 збільшено до %s2."
 "TF_Arena_Team_SizeDecreased"	"Розмір команди %s1 збільшено до %s2."
-
-
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1068,7 +1085,7 @@
 "TF_ScoreBoard_TransportsLabel"		"Пересувань:"
 "TF_ScoreBoard_DestructionsLabel"	"Знищень:"
 "TF_ScoreBoard_HeadshotsLabel"		"У голову:"
-"TF_ScoreBoard_BackstabsLabel"		"Ніж у спину:"
+"TF_ScoreBoard_BackstabsLabel"		"Ударів у спину:"
 
 "TF_Medal_Developer"				"Розробник TF2C"
 "TF_Medal_Contributor"				"Учасник TF2C"
@@ -1098,12 +1115,12 @@
 "Winpanel_GreenMVPs"		"Кращі гравці ЗЕЛЕНИХ:"
 "Winpanel_YellowMVPs"		"Кращі гравці ЖОВТИХ:"
 
-"Winreason_KOTHPointHeld"		"%s1 утримали контрольну точку до кінця раунда"
+"Winreason_KOTHPointHeld"		"%s1 утримали контрольну точку до кінця раунду"
 "Winreason_PayloadPushed"		"%s1 доштовхали вагонетку до кінцевої точки"
 "Winreason_ArenaPointCaptured"	"%s1 захопили контрольну точку"
 "Winreason_RoundScoreLimit"		"%s1 набрали %s2 очок"
 "Winreason_VIPEscaped"			"VIP утік"
-"Winreason_VIPKilled"			"VIP убито"
+"Winreason_VIPKilled"			"VIP ліквідовано"
 
 // ----------------------------------------------------------------
 // Main Menu
@@ -1522,35 +1539,35 @@
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
-"ServerBrowser_PlayerCount" "%s1/%s2"
-"ServerBrowser_LatencyDetail" "Пінґ: %s1"
-"ServerBrowser_IPAddressDetail" "IP-адреса: %s1"
-"ServerBrowser_PlayerListHeading" "Гравці (%s1/%s2, %s3 ботів):"
-"ServerBrowser_NotFullFilter" "Сервер не повний"
-"ServerBrowser_HasPlayersFilter" "Має гравців"
-"ServerBrowser_NoPasswordFilter" "Не має пароля"
-"ServerBrowser_HasTagsFilter" "Має теґи"
-"ServerBrowser_MaxLatencyFilter" "Максимальний пінґ"
-"ServerBrowser_MaxPlayersFilter" "Максимум гравців"
-"ServerBrowser_ServerTypeFilter" "Тип сервера"
-"ServerBrowser_MapNameFilter" "Назва мапи"
-"ServerBrowser_SortBy" "Сортування:"
-"ServerBrowser_SortByName" "Назва"
-"ServerBrowser_SortByMap" "Мапа"
-"ServerBrowser_SortByPlayers" "Гравці"
-"ServerBrowser_SortByLatency" "Пінґ"
-"ServerBrowser_SortByLastPlayed" "Останні зіграні"
-"ServerBrowser_UseLegacyBrowser" "Старий браузер"
-"ServerBrowser_CurrentMapHeading" "Поточна мапа:"
-"ServerBrowser_TagListHeading" "Теґи:"
-"ServerBrowser_OfficialDetail" "Офіційний сервер"
-"ServerBrowser_VerifiedDetail" "Перевірений сервер"
-"ServerBrowser_Any" "Будь-який"
-"ServerBrowser_Official" "Офіційний"
-"ServerBrowser_Verified" "Перевірений"
-"ServerBrowser_OfficialOrVerified" "Офіційний або перевірений"
-"ServerBrowser_CustomRules"	"Користувацькі правила"
-"ServerBrowser_CustomWeapons" "Користувацька зброя"
+"ServerBrowser_PlayerCount" 		"%s1/%s2"
+"ServerBrowser_LatencyDetail"		"Пінґ: %s1"
+"ServerBrowser_IPAddressDetail" 	"IP-адреса: %s1"
+"ServerBrowser_PlayerListHeading"	"Гравці (%s1/%s2, %s3 ботів):"
+"ServerBrowser_NotFullFilter"		"Сервер не повний"
+"ServerBrowser_HasPlayersFilter"	"Має гравців"
+"ServerBrowser_NoPasswordFilter"	"Не має пароля"
+"ServerBrowser_HasTagsFilter"		"Має теґи"
+"ServerBrowser_MaxLatencyFilter"	"Максимальний пінґ"
+"ServerBrowser_MaxPlayersFilter"	"Максимум гравців"
+"ServerBrowser_ServerTypeFilter"	"Тип сервера"
+"ServerBrowser_MapNameFilter"		"Назва мапи"
+"ServerBrowser_SortBy"				"Сортування:"
+"ServerBrowser_SortByName"			"Назва"
+"ServerBrowser_SortByMap"			"Мапа"
+"ServerBrowser_SortByPlayers"		"Гравці"
+"ServerBrowser_SortByLatency"		"Пінґ"
+"ServerBrowser_SortByLastPlayed"	"Останні зіграні"
+"ServerBrowser_UseLegacyBrowser"	"Старий браузер"
+"ServerBrowser_CurrentMapHeading"	"Поточна мапа:"
+"ServerBrowser_TagListHeading"		"Теґи:"
+"ServerBrowser_OfficialDetail"		"Офіційний сервер"
+"ServerBrowser_VerifiedDetail"		"Перевірений сервер"
+"ServerBrowser_Any"					"Будь-який"
+"ServerBrowser_Official"			"Офіційний"
+"ServerBrowser_Verified"			"Перевірений"
+"ServerBrowser_OfficialOrVerified"	"Офіційний або перевірений"
+"ServerBrowser_CustomRules"			"Користувацькі правила"
+"ServerBrowser_CustomWeapons"		"Користувацька зброя"
 
 // ----------------------------------------------------------------
 // Level Strings
